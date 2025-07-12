@@ -48,3 +48,18 @@ h1{
      align-items: center;
      margin-top: 100px;
 }
+/*Productive user section styles*/
+.users-main{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+     text-align: center;
+     background-color:rgba(78, 71, 255,.2);
+     border-radius: 10px;
+     max-width: 940px;
+     margin-top: 50px;
+}
+.active-user{
+     display: flex;
+    justify-content: space-between;
+}
