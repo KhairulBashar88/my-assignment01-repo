@@ -1,4 +1,6 @@
-
+.bg-color{
+    background-color:f5f8ff;
+}
 /*shared styles*/
 .container {
   max-width: 1140px;
@@ -14,6 +16,7 @@
     border-radius: 5px;
     border: none;
 }
+
 /*hero banner section styles*/
 .banner{
     background-image: url(./images/Hero-bg.png);
@@ -63,3 +66,46 @@ h1{
      display: flex;
     justify-content: space-between;
 }
+/*feedback section styles*/
+.feedback-row{
+    display: flex;
+}
+.feedback-header{
+   text-align: center;
+   font-size: 45px;
+   font-weight: bold;
+}
+.reviewer{
+    display: flex;
+}
+/*lets get in touch section*/
+.contact-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.form-group {
+      margin-bottom: 20px;
+      width: 300px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+
+    input {
+      width: 100%;
+      padding: 8px;
+      font-size: 16px;
+    }
+    textarea {
+      width: 100%;
+      height: 120px;
+      padding: 10px;
+      font-size: 16px;
+  }
+  .getInTouch-btn{
+    width:100%;
+  }
